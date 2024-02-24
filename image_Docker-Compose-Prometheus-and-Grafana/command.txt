@@ -3,6 +3,8 @@ docker-compose up -d
 
 В прометеус уже прописаны настройки для windows_exporter локальной машины, нужно только подставить в prometheus.yml ip локальной машины
 
+В своих приложениях Java использую порт 9000 для actuator/prometheus
+
 Тут-
   - job_name: 'windows_exporter'
     scrape_interval: 15s
