@@ -1,0 +1,12 @@
+После запуска контейнера запускаем pgadmin
+EMAIL: noemail@noemail.com
+PASSWORD: root
+
+Добавляем новый севрер
+my-server
+Указать Connection - (имя контейнера)pg_db
+Имя БД postgres
+Имя пользователя root
+Пароль root
+Галочку сохранить пароль V
+

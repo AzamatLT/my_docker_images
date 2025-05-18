@@ -1,4 +1,9 @@
 {
-  "timer": 100,
+  "timer": 150,
   "port": 9000,
+  "prometheus": {
+    "endpoint": "/actuator/prometheus",
+    "enabled": true
+  }
+
 }
